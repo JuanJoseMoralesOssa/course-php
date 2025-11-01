@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+    "target": "es5",
+    "module": "es2015",
+    "strict": true,
+    "jsx": "react",
+    "allowJs": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": "./",
+    "paths": {
+        "@/*": ["resources/js/*"],
+        "ziggy-js": ["./vendor/tightenco/ziggy"]
+    }
+    },
+    "include": ["resources/js/**/*.ts", "resources/js/**/*.tsx", "resources/js/**/*.d.ts"],
+    "exclude": ["node_modules", "public"]
+
+}

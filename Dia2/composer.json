@@ -1,0 +1,17 @@
+{
+    "name": "juanj/dia2",
+    "autoload": {
+        "psr-4": {
+            "Dia2\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "juan",
+            "email": "juanjomoss@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.9"
+    }
+}
